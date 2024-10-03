@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css"/>
+        <!-- use for icons-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+            integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <title>VOYAGE</title>
+    </head>
+    <body>
+        <!-- Heropage -->
+        <div class="heropage">
+            <nav>
+                <input type="checkbox" id="check">
+                <label for="check" class="checkbtn">
+                    <i class="fas fa-bars"></i>
+                </label>
+                <label class="logo">VOYAGE</label>
+                <ul>
+                    <li>
+                        <a href="#features" onclick="uncheckCheckbox()">EXPLORE</a>
+                    </li>
+                    <li>
+                        <a href="#about" onclick="uncheckCheckbox()">ABOUT</a>
+                    </li>
+                    <li>
+                        <a href="#pricing" onclick="uncheckCheckbox()">SERVICES</a>
+                    </li>
+                    <li>
+                        <a href="#contact" onclick="uncheckCheckbox()">CONTACT</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="headline">
+                <p class="description">DISCOVER THE WORLD WITH CONFIDENCE</p>
+                <h1 class="title">VOYAGE</h1>
+                <a href="#destinations">
+                    <button class="callout">EXPLORE</button>
+                </a>
+                <i class="fa-solid upanddown fa-arrow-down fa-lg"></i>
+            </div>
+        </div>
+        <!-- Features -->
+        <div class="features" id="features">
+            <h2>What Can You Expect</h2>
+            <hr class="small-divider" />
+            <div class="boxes">
+                <div class="box">
+                    <i class="fa-regular fa-map fa-2x1" style="color: #ff9a62;"></i>
+                    <h6>Tailored Experiences</h6>
+                    <p>
+                        Our commitment to providing <br/>
+                        tailored experiences sets us apart.
+                    </p>
+                </div>
+                <div class="box">
+                    <i class="fa-regular fa-compass fa-2x1" style="color: #ff9a62;"></i>
+                    <h6>Expert Guidance</h6>
+                    <p>
+                        Our travel advisors have in-depth <br>
+                        knowledge of top destinations.
+                    </p>
+                </div>
+                <div class="box">
+                    <i class="fa-solid fa-plane fa-2x1" style="color: #ff9a62;"></i>
+                    <h6>Exclusive Access</h6>
+                    <p>
+                        Benefit from our partnerships with <br>
+                        premium hotels, airlines, etc.
+                    </p>
+                </div>
+            </div>
+            <hr class="divider" />
+        </div>
+        <!-- Destinations -->
+        <div class="destinations" id="destinations">
+            <h1>Top Destinations</h1>
+            <p>Explore The Best Places Around The World!</p>
+            <div class="image-boxes">
+                <div class="image-box">
+                    <div class="overlap-1">
+                        <div class="overlap-text">
+                            <h5>Greece</h5>
+                            <p>Santorini</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="image-box">
+                    <div class="overlap-2">
+                        <div class="overlap-text">
+                            <h5>Japan</h5>
+                            <p>Kyoto</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="image-box">
+                    <div class="overlap-3">
+                        <div class="overlap-text">
+                            <h5>South Africa</h5>
+                            <p>Cape Town</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--About-->
+        <div class="about" id="about">
+            <div class="welcome">
+                <div>
+                    <h1>Welcome <br/>
+                        To Voyage
+                    </h1>
+                </div>
+                <div class="welcome-subtext">
+                    <p>
+                        At Voyage, we believe in the transformative power of travel. <br/>
+                        Our mission is to curate extraordinary experiences that go <br />
+                        beyond the ordinary, creating memories that last a lifetime.
+                    </p>
+                    <button class="button-2">
+                        Learn more 
+                        <i 
+                            class="fa-solid fa-arrow-trend-up fa-sm" 
+                            style="padding-left: 10px;"
+                        ></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="slide-photo">
+                <img src="img/slide-photo-1.png" alt="img"/>
+                <img src="img/slide-photo-2.png" alt="img"/>
+                <img src="img/slide-photo-3.png" alt="img"/>
+                <img src="img/slide-photo-4.png" alt="img"/>
+            </div>
+            <div class="beyond-travel">
+                <div class="beyond-travel-text">
+                    <h1>Beyond Travel - </h1>
+                    <h2><i>It's A Lifestyle</i></h2>
+                    <p>
+                        we don't just plan trips; we curate experiences that <br />redefine
+                        the art of travel. Established with a vision to go<br />
+                        beyond the ordinary, Voyage is more than a travel agency -
+                        <br />it's a gateway to a lifestyle to exploration and discovery.
+                    </p>
+
+                    <button class="button-2">
+                        Learn more
+                        <i
+                            class="fa-solid fa-arrow-trend-up fa-sm"
+                            styles="padding-left: 10px"
+                        ></i>
+                    </button>
+                </div>
+                <img src="/img/ariplane.png"/ alt="img">
+            </div>
+            <hr class="divider" />
+        </div>
+
+        <!-- Pricing-->
+        <div class="pricing" id="pricing">
+            <h1>Pricing & Services</h1>
+            <p>Each package can be further customized based.</p>
+        
+            <div class="price-boxes">
+                <!-- Basic Package-->
+                <div class="price-box" style="background-color: #f8f8f8f8;">
+                    <h3>Basic Package</h3>
+                    <h4>Essential Explorer</h4>
+                    <hr/>
+                    <div class="basic-description">
+                        <div class="basic-description-box">
+                            <div class="basic-description-title">
+                                <i class="fa-regular fa-circle fa-xs"></i>
+                                <p>Accomodation</p>
+                            </div>
+                            <p class="basic-description-text">
+                                Comfortable and well-reviewed hotels or <br />
+                                budget-friendly boutique stays.
+                            </p>
+                        </div>
+                        <div class="basic-description-box">
+                            <div class="basic-description-title">
+                                <i class="fa-regular fa-circle fa-xs"></i>
+                                <p>Transportation</p>
+                            </div>
+                            <p class="basic-description-text">
+                                Standard or economy class flights with <br />
+                                convenient timings.
+                            </p>
+                        </div>
+                        <div class="basic-description-box">
+                            <div class="basic-description-title">
+                                <i class="fa-regular fa-circle fa-xs"></i>
+                                <p>Activities</p>
+                            </div>
+                            <p class="basic-description-text">
+                                Essential guided tours and popular attractions.
+                            </p>
+                        </div>
+                        <div class="basic-description-box">
+                            <div class="basic-description-title">
+                                <i class="fa-regular fa-circle fa-xs"></i>
+                                <p>Meals</p>
+                            </div>
+                            <p class="basic-description-text">
+                                Breakfast included.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Premium Package-->
+                <div class="price-box" style="background-color: #ffeddd;">
+                    <h3>High-End Package</h3>
+                    <h4>Premium Traveler</h4>
+                    <hr />
+                    <div class="basic-description">
+                        <div class="basic-description-box">
+                            <div class="basic-description-title">
+                                <i class="fa-regular fa-circle fa-xs"></i>
+                                <p>Accomodation</p>
+                            </div>
+                            <p class="basic-description-text">
+                                Upscale hotels or boutique luxury <br />
+                                accomodations.
+                            </p>
+                        </div>
+                        <div class="basic-description-box">
+                            <div class="basic-description-title">
+                                <i class="fa-regular fa-circle fa-xs"></i>
+                                <p>Transportation</p>
+                            </div>
+                            <p class="basic-description-text">
+                                Premium class flights or private transfers.
+                            </p>
+                        </div>
+                        <div class="basic-description-box">
+                            <div class="basic-description-title">
+                                <i class="fa-regular fa-circle fa-xs"></i>
+                                <p>Activities</p>
+                            </div>
+                            <p class="basic-description-text">
+                                Curated experiences, exclusive guided tours, <br />and access to
+                                iconic attractions.
+                            </p>
+                        </div>
+                        <div class="basic-description-box">
+                            <div class="basic-description-title">
+                                <i class="fa-regular fa-circle fa-xs"></i>
+                                <p>Meals</p>
+                            </div>
+                            <p class="basic-description-text">
+                                Breakfast included, with some lunches or <br />dinners at select
+                                restaurants.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Luxury Package-->
+                <div class="price-box" style="background-color: #eeecff;">
+                    <h3>Luxury Package</h3>
+                    <h4>Luxury Odyssey</h4>
+                    <hr />
+                    <div class="basic-description">
+                        <div class="basic-description-box">
+                            <div class="basic-description-title">
+                                <i class="fa-regular fa-circle fa-xs"></i>
+                                <p>Accomodation</p>
+                            </div>
+                            <p class="basic-description-text">
+                                5 star luxury hotels, resorts or exclusive villas.
+                            </p>
+                        </div>
+                        <div class="basic-description-box">
+                            <div class="basic-description-title">
+                                <i class="fa-regular fa-circle fa-xs"></i>
+                                <p>Transportation</p>
+                            </div>
+                            <p class="basic-description-text">
+                                First-class or private jet options, chauffeur <br />driven
+                                transfers.
+                            </p>
+                        </div>
+                        <div class="basic-description-box">
+                            <div class="basic-description-title">
+                                <i class="fa-regular fa-circle fa-xs"></i>
+                                <p>Activities</p>
+                            </div>
+                            <p class="basic-description-text">
+                                Private guided tours, VIP access to attractions, <br />
+                                and bespoke experiences.
+                            </p>
+                        </div>
+                        <div class="basic-description-box">
+                            <div class="basic-description-title">
+                                <i class="fa-regular fa-circle fa-xs"></i>
+                                <p>Meals</p>
+                            </div>
+                            <p class="basic-description-text">
+                                Gourmet dining experiences, including fine <br />
+                                dining and unique culinary events.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="know-more">
+                <h2>Know More About Your Package</h2>
+                <button class="button-3">Contact Us</button>
+            </div>
+            <hr class="divider" />
+        </div>
+
+        <!-- Contact -->
+        <div class="contact" id="contact">
+            <h1>REACH NOW</h1>
+            <img src="img/reach-now.png" alt="img">
+            <button class="button-4">Contact Us</button>
+        </div>
+        <div class="footer">
+            <div class="footer-socials">
+                <p>Follow Us</p>
+                <p style="opacity: 80%;">And Keep up to date with Voyage</p>
+                <div class="socials">
+                    <a><i class="fa-brands fa-instagram fa-x1"></i></a>
+                    <a><i class="fa-brands fa-square-facebook fa-x1"></i></a>
+                    <a><i class="fa-brands fa-linkedin fa-x1"></i></a>
+                </div>
+            </div>
+            <div class="contact-info">
+                <div class="contact-info-box">
+                    <i class="fa-solid fa-phone fa-lg"></i>
+                    <p>111-222-333</p>
+                </div>
+                <div class="contact-info-box">
+                    <i class="fa-solid fa-location-dot fa-lg"></i>
+                    <p>Arizona, USA</p>
+                </div>
+                <div class="contact-info-box">
+                    <i class="fa-solid fa-envelope fa-lg"></i>
+                    <p>info@voyager.com</p>
+                </div>
+            </div>
+        </div>
+        <script>
+            function uncheckCheckbox() {
+                document.getElementById("check").checked = false;
+            }
+        </script>
+    </body>
+</html>
